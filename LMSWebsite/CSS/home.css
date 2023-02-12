@@ -1,0 +1,40 @@
+
+.parent {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  }
+
+  .child {
+    border-radius: 25px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    flex: 1 1 10px;
+    max-width: 500px;
+    transition: .1s all linear;
+    color: black;
+    box-shadow: 0 1px  rgba(29, 29, 29, 0.05), 0 4px 8px rgba(22, 22, 22, 0.1), 0 2px 3px rgba(0,0,0,.15);
+   
+  }
+
+  .child:hover{
+
+    box-shadow: 0 8px  rgba(0,0,0,.05), 0 4px 8px rgba(0,0,0,.1), 0 2px 3px rgba(0,0,0,.15);
+  
+  }
+  /* .childof{
+    min-width: 150px;
+    flex: 1 1 150px;
+    max-width: 50%;
+  } */
+.child p{
+padding-left: 10px;
+margin:none !important;
+width: fit-content;
+}
+.details{
+  font-size: 1rem;
+}
